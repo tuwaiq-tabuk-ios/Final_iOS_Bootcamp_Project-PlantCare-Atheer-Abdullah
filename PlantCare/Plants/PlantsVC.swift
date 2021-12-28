@@ -48,12 +48,14 @@ extension PlantsVC : UITableViewDataSource {
       
     }else{
       
-      return cell
+//      return cell
     
     
     
     
   }
-  
+    
+    return cell
 }
+
 }
