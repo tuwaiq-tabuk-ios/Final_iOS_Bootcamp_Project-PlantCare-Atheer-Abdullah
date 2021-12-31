@@ -18,11 +18,19 @@
 		3061BAB527799D09002FF457 /* PlantTaypesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3061BAB427799D09002FF457 /* PlantTaypesVC.swift */; };
 		3061BAB92779A122002FF457 /* PlantsTaypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3061BAB82779A122002FF457 /* PlantsTaypes.swift */; };
 		3061BABB2779F519002FF457 /* EX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3061BABA2779F519002FF457 /* EX.swift */; };
+		306AADEC277D8B870019A574 /* PalmsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306AADEB277D8B870019A574 /* PalmsTableViewCell.swift */; };
+		306AADEE277DAAB30019A574 /* TreesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306AADED277DAAB30019A574 /* TreesTableViewCell.swift */; };
+		306AADF0277DAACD0019A574 /* TreesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306AADEF277DAACD0019A574 /* TreesViewController.swift */; };
+		306AADF2277DC4FF0019A574 /* FernsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306AADF1277DC4FF0019A574 /* FernsVC.swift */; };
+		306AADF4277DC5270019A574 /* FernsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306AADF3277DC5270019A574 /* FernsTableViewCell.swift */; };
+		306AADF6277DD1D90019A574 /* FlowersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306AADF5277DD1D90019A574 /* FlowersTableViewCell.swift */; };
+		306AADF8277DD1FD0019A574 /* FlowersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306AADF7277DD1FD0019A574 /* FlowersVC.swift */; };
+		306AADFA277DE5780019A574 /* CactiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306AADF9277DE5780019A574 /* CactiVC.swift */; };
+		306AADFC277DE5980019A574 /* CactiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306AADFB277DE5980019A574 /* CactiTableViewCell.swift */; };
 		3075A0552779924400F1B105 /* MainTF 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3075A0542779924400F1B105 /* MainTF 2.swift */; };
 		3096821427776A8E00240211 /* plants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3096821327776A8E00240211 /* plants.swift */; };
 		309682162777A38C00240211 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309682152777A38C00240211 /* ProfileVC.swift */; };
 		3096821A2777A52700240211 /* AvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309682192777A52700240211 /* AvatarImageView.swift */; };
-		3096821E2777A76400240211 /* FontPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3096821D2777A76400240211 /* FontPreviewController.swift */; };
 		309DE18A2767587A00594E1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309DE1892767587A00594E1E /* AppDelegate.swift */; };
 		309DE18C2767587A00594E1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309DE18B2767587A00594E1E /* SceneDelegate.swift */; };
 		309DE18E2767587A00594E1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309DE18D2767587A00594E1E /* ViewController.swift */; };
@@ -33,6 +41,10 @@
 		309DE1A027675A3100594E1E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309DE19F27675A3100594E1E /* LoginViewController.swift */; };
 		309DE1A227675A4D00594E1E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309DE1A127675A4D00594E1E /* HomeViewController.swift */; };
 		30BED3BC27785FF70097A655 /* PlantsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BED3BB27785FF70097A655 /* PlantsCell.swift */; };
+		30C41BF3277C79CB004C199A /* PlantsTaypesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C41BF2277C79CB004C199A /* PlantsTaypesVC.swift */; };
+		30C41BF6277C9416004C199A /* HerbsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C41BF5277C9416004C199A /* HerbsVC.swift */; };
+		30C41BF8277C9A36004C199A /* HerbsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C41BF7277C9A36004C199A /* HerbsTableViewCell.swift */; };
+		30C41BFA277D44A6004C199A /* PalmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C41BF9277D44A6004C199A /* PalmsViewController.swift */; };
 		30DAA4C3276F4A3300C349EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30DAA4C2276F4A3300C349EA /* GoogleService-Info.plist */; };
 		30EFC4C9276F23C100811073 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EFC4C8276F23C100811073 /* Utilities.swift */; };
 /* End PBXBuildFile section */
@@ -47,11 +59,19 @@
 		3061BAB427799D09002FF457 /* PlantTaypesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTaypesVC.swift; sourceTree = "<group>"; };
 		3061BAB82779A122002FF457 /* PlantsTaypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsTaypes.swift; sourceTree = "<group>"; };
 		3061BABA2779F519002FF457 /* EX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EX.swift; sourceTree = "<group>"; };
+		306AADEB277D8B870019A574 /* PalmsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalmsTableViewCell.swift; sourceTree = "<group>"; };
+		306AADED277DAAB30019A574 /* TreesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreesTableViewCell.swift; sourceTree = "<group>"; };
+		306AADEF277DAACD0019A574 /* TreesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreesViewController.swift; sourceTree = "<group>"; };
+		306AADF1277DC4FF0019A574 /* FernsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FernsVC.swift; sourceTree = "<group>"; };
+		306AADF3277DC5270019A574 /* FernsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FernsTableViewCell.swift; sourceTree = "<group>"; };
+		306AADF5277DD1D90019A574 /* FlowersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowersTableViewCell.swift; sourceTree = "<group>"; };
+		306AADF7277DD1FD0019A574 /* FlowersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowersVC.swift; sourceTree = "<group>"; };
+		306AADF9277DE5780019A574 /* CactiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CactiVC.swift; sourceTree = "<group>"; };
+		306AADFB277DE5980019A574 /* CactiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CactiTableViewCell.swift; sourceTree = "<group>"; };
 		3075A0542779924400F1B105 /* MainTF 2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainTF 2.swift"; sourceTree = "<group>"; };
 		3096821327776A8E00240211 /* plants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plants.swift; sourceTree = "<group>"; };
 		309682152777A38C00240211 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		309682192777A52700240211 /* AvatarImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarImageView.swift; sourceTree = "<group>"; };
-		3096821D2777A76400240211 /* FontPreviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontPreviewController.swift; sourceTree = "<group>"; };
 		309DE1862767587A00594E1E /* PlantCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlantCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		309DE1892767587A00594E1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		309DE18B2767587A00594E1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +84,10 @@
 		309DE19F27675A3100594E1E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		309DE1A127675A4D00594E1E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		30BED3BB27785FF70097A655 /* PlantsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsCell.swift; sourceTree = "<group>"; };
+		30C41BF2277C79CB004C199A /* PlantsTaypesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsTaypesVC.swift; sourceTree = "<group>"; };
+		30C41BF5277C9416004C199A /* HerbsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbsVC.swift; sourceTree = "<group>"; };
+		30C41BF7277C9A36004C199A /* HerbsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbsTableViewCell.swift; sourceTree = "<group>"; };
+		30C41BF9277D44A6004C199A /* PalmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalmsViewController.swift; sourceTree = "<group>"; };
 		30DAA4C2276F4A3300C349EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		30EFC4C8276F23C100811073 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,17 +163,14 @@
 		309DE1882767587A00594E1E /* PlantCare */ = {
 			isa = PBXGroup;
 			children = (
-				30455F6627747B8B008A6887 /* Plants */,
-				305F34E3277468D5007F49AE /* Spourt */,
+				30C41BF4277C846B004C199A /* Plant Tayoe */,
 				305F34E227746878007F49AE /* Tasks */,
-				30C9E35C2771B90E00FCA451 /* Myplant */,
 				30EFC4CA276F241200811073 /* Helpers */,
 				309DE1A327675A5600594E1E /* ViewControllers */,
 				309DE18F2767587A00594E1E /* Main.storyboard */,
 				304C20662778A7F300054C3D /* TaypesOfPlant */,
 				309682192777A52700240211 /* AvatarImageView.swift */,
 				309682152777A38C00240211 /* ProfileVC.swift */,
-				3096821D2777A76400240211 /* FontPreviewController.swift */,
 				309DE1922767587C00594E1E /* Assets.xcassets */,
 				309DE1942767587C00594E1E /* LaunchScreen.storyboard */,
 				30DAA4C2276F4A3300C349EA /* GoogleService-Info.plist */,
@@ -170,11 +191,26 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		30C9E35C2771B90E00FCA451 /* Myplant */ = {
+		30C41BF4277C846B004C199A /* Plant Tayoe */ = {
 			isa = PBXGroup;
 			children = (
+				30455F6627747B8B008A6887 /* Plants */,
+				30C41BF2277C79CB004C199A /* PlantsTaypesVC.swift */,
+				306AADED277DAAB30019A574 /* TreesTableViewCell.swift */,
+				306AADEF277DAACD0019A574 /* TreesViewController.swift */,
+				30C41BF5277C9416004C199A /* HerbsVC.swift */,
+				30C41BF9277D44A6004C199A /* PalmsViewController.swift */,
+				30C41BF7277C9A36004C199A /* HerbsTableViewCell.swift */,
+				306AADEB277D8B870019A574 /* PalmsTableViewCell.swift */,
+				306AADF9277DE5780019A574 /* CactiVC.swift */,
+				306AADFB277DE5980019A574 /* CactiTableViewCell.swift */,
+				306AADF1277DC4FF0019A574 /* FernsVC.swift */,
+				306AADF3277DC5270019A574 /* FernsTableViewCell.swift */,
+				306AADF5277DD1D90019A574 /* FlowersTableViewCell.swift */,
+				306AADF7277DD1FD0019A574 /* FlowersVC.swift */,
+				305F34E3277468D5007F49AE /* Spourt */,
 			);
-			path = Myplant;
+			path = "Plant Tayoe";
 			sourceTree = "<group>";
 		};
 		30EFC4CA276F241200811073 /* Helpers */ = {
@@ -267,23 +303,35 @@
 			files = (
 				3020066F2770A438009FA23C /* TodoViewController.swift in Sources */,
 				3061BAB92779A122002FF457 /* PlantsTaypes.swift in Sources */,
+				306AADF0277DAACD0019A574 /* TreesViewController.swift in Sources */,
+				306AADF2277DC4FF0019A574 /* FernsVC.swift in Sources */,
+				30C41BF8277C9A36004C199A /* HerbsTableViewCell.swift in Sources */,
+				306AADF8277DD1FD0019A574 /* FlowersVC.swift in Sources */,
 				309DE18E2767587A00594E1E /* ViewController.swift in Sources */,
+				306AADF4277DC5270019A574 /* FernsTableViewCell.swift in Sources */,
 				309682162777A38C00240211 /* ProfileVC.swift in Sources */,
 				309DE18A2767587A00594E1E /* AppDelegate.swift in Sources */,
 				30EFC4C9276F23C100811073 /* Utilities.swift in Sources */,
-				3096821E2777A76400240211 /* FontPreviewController.swift in Sources */,
+				30C41BF3277C79CB004C199A /* PlantsTaypesVC.swift in Sources */,
 				302006732770AD76009FA23C /* TaskViewController.swift in Sources */,
 				309DE19E2767594900594E1E /* SingUpViewController.swift in Sources */,
+				306AADFC277DE5980019A574 /* CactiTableViewCell.swift in Sources */,
 				30BED3BC27785FF70097A655 /* PlantsCell.swift in Sources */,
 				302006712770AD49009FA23C /* EntryViewController.swift in Sources */,
 				309DE1A027675A3100594E1E /* LoginViewController.swift in Sources */,
+				306AADEC277D8B870019A574 /* PalmsTableViewCell.swift in Sources */,
+				30C41BFA277D44A6004C199A /* PalmsViewController.swift in Sources */,
+				30C41BF6277C9416004C199A /* HerbsVC.swift in Sources */,
+				306AADFA277DE5780019A574 /* CactiVC.swift in Sources */,
 				3061BAB527799D09002FF457 /* PlantTaypesVC.swift in Sources */,
 				3061BAB327799B62002FF457 /* TaypesPlantsCVC.swift in Sources */,
 				3096821427776A8E00240211 /* plants.swift in Sources */,
+				306AADF6277DD1D90019A574 /* FlowersTableViewCell.swift in Sources */,
 				3075A0552779924400F1B105 /* MainTF 2.swift in Sources */,
 				305F34E527746B60007F49AE /* PlantsVC.swift in Sources */,
 				309DE18C2767587A00594E1E /* SceneDelegate.swift in Sources */,
 				3096821A2777A52700240211 /* AvatarImageView.swift in Sources */,
+				306AADEE277DAAB30019A574 /* TreesTableViewCell.swift in Sources */,
 				309DE1A227675A4D00594E1E /* HomeViewController.swift in Sources */,
 				3061BABB2779F519002FF457 /* EX.swift in Sources */,
 				3020066B277092D7009FA23C /* Constants.swift in Sources */,

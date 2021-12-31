@@ -10,9 +10,20 @@ import UIKit
 class PlantTaypesVC: UIViewController {
 
   @IBOutlet weak var collectionView: UICollectionView!
+  
+  
 
-
-
+  let taypesPlants : [TaypesOfPlant] = [
+    TaypesOfPlant(title: "Herbs", imageTaype: UIImage(named: "Herbs")!),
+    TaypesOfPlant(title: "Flower", imageTaype: UIImage(named: "Berries")!),
+    TaypesOfPlant(title: "Succulents", imageTaype: UIImage(named: "Succulents")!),
+    TaypesOfPlant(title: "Decorative blooming", imageTaype: UIImage(named: "Decorative blooming")!),
+    TaypesOfPlant(title: "Decorative deciduous", imageTaype: UIImage(named: "Decorative deciduous")!),
+    TaypesOfPlant(title: "Houseplant", imageTaype: UIImage(named: "Houseplant")!),
+    
+    
+  ]
+  
   override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -25,7 +36,7 @@ class PlantTaypesVC: UIViewController {
 }
 
 
-extension PlantTaypesVC : UICollectionViewDataSource {
+extension PlantTaypesVC : UICollectionViewDataSource{
   func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
     return taypesPlants.count
   }
@@ -35,6 +46,27 @@ extension PlantTaypesVC : UICollectionViewDataSource {
     cell.setup(with: taypesPlants[indexPath.row])
     return cell
   }
+  
+  
+  func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+//        print(myColors[indexPath.row])
+      performSegue(withIdentifier: "showTableViewVC", sender: nil)
+  }
+
+
+
+}
+
+
+extension ViewController{
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showTableViewVC" {
+          _ = segue.destination as! PlantsVC
+//          controller.selectedCell 
+          
+        }
+
+    }
 }
 
 extension PlantTaypesVC : UICollectionViewDelegateFlowLayout {
@@ -43,10 +75,4 @@ extension PlantTaypesVC : UICollectionViewDelegateFlowLayout {
   }
 }
 
-extension PlantTaypesVC: UICollectionViewDelegate {
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        print(taypesPlants[indexPath.row].title)
-    }
-}
 
-  
