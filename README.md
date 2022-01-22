@@ -24,18 +24,13 @@ People interested in plants and owning them.
 
 ● Dispaly a description about the plant.
 
+● Authentication
 
 =======
-
-●  Watering tasks at the right time
-
-● Displays information، pictures about plants and their care and will be able to search by the plant's name.
-
-● Shows the user the plant's needs such as water, fertilizer
-
-● Dispaly a description about the plant.
-
->>>>>>> 2533ac6c09afb13025dd2cb94b5b760dbaddbe5d
-● The user will have a list of common plants problems and how to solve them.
-
+ 
+ ## Demo 
+ ![](PlantCareApp.gif)
+ ![](DarkMood.gif)
+ ![](DarkMood@.gif)
+ ![](LightRecording.gif)
 

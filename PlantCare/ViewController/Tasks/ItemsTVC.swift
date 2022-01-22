@@ -87,13 +87,16 @@ class ItemsTVC: UITableViewController {
         newPlantViewController.item = item
         newPlantViewController.imageStore = imageStore
       } default:
- preconditionFailure("Unexpected segue identifier.")
+      preconditionFailure("Unexpected segue identifier.")
     }
   }
   
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: "ItemCell",for: indexPath ) as! ItemTableViewCell
     let item = ItemStore.allItems[indexPath.row]
+    cell.nameTask?.text = item.nameyourPlant
+    cell.wate.text = item.water
+    
     return cell
     
   }

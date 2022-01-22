@@ -41,7 +41,8 @@ class SettingVC: UIViewController {
   //MARK: - IBAction
   @IBAction func editeProfile(_ sender: Any) {
     
-  let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+  let storyBoard : UIStoryboard = UIStoryboard(name: "Main",
+                                               bundle:nil)
   let nextViewController = storyBoard.instantiateViewController(withIdentifier: "EditeProfile") as! ProfileVC
   self.present(nextViewController, animated:true, completion:nil)
 }
@@ -51,7 +52,7 @@ class SettingVC: UIViewController {
     
     
     let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-    let nextViewController2 = storyBoard.instantiateViewController(withIdentifier: "EditePassword") as! newPasswordTFVC
+    let nextViewController2 = storyBoard.instantiateViewController(withIdentifier: "EditePassword") as! NewPasswordTFVC
     
     self.present(nextViewController2, animated:true, completion:nil)
   }

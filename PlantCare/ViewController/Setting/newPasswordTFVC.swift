@@ -10,7 +10,7 @@ import Firebase
 import FirebaseFirestore
 import CoreMedia
 
-class newPasswordTFVC: UIViewController {
+class NewPasswordTFVC: UIViewController {
   
   // MARK: - IBOutlets
   @IBOutlet weak var newPasswordTF: UITextField!

@@ -12,8 +12,9 @@ import FirebaseFirestore
 enum FSCollectionReference: String {
   case users
 }
+
 func getFSCollectionReference(_ collectionReference: FSCollectionReference ) -> CollectionReference {
-return Firestore.firestore()
+  return Firestore.firestore()
     .collection(collectionReference.rawValue)
 }
 

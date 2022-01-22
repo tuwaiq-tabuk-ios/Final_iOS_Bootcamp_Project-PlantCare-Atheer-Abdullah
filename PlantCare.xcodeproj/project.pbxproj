@@ -22,11 +22,11 @@
 		3082A92927972D6600E398A4 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3082A92827972D6600E398A4 /* ItemStore.swift */; };
 		3082A92B27972E8200E398A4 /* ItemsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3082A92A27972E8200E398A4 /* ItemsTVC.swift */; };
 		3082A92D2797303D00E398A4 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3082A92C2797303D00E398A4 /* ItemTableViewCell.swift */; };
-		308A95BF2793ED2B0079D611 /* twoHomeControllerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308A95BE2793ED2B0079D611 /* twoHomeControllerVC.swift */; };
+		308A95BF2793ED2B0079D611 /* TwoHomeControllerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308A95BE2793ED2B0079D611 /* TwoHomeControllerVC.swift */; };
 		308A95C12793ED4F0079D611 /* ShowCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308A95C02793ED4F0079D611 /* ShowCollectionVC.swift */; };
 		308A95C82793FA5C0079D611 /* TasksPlantVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308A95C72793FA5C0079D611 /* TasksPlantVC.swift */; };
 		308CD9F72785D2A000C05D8F /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308CD9F62785D2A000C05D8F /* SettingVC.swift */; };
-		308CD9F92785D76B00C05D8F /* newPasswordTFVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308CD9F82785D76B00C05D8F /* newPasswordTFVC.swift */; };
+		308CD9F92785D76B00C05D8F /* NewPasswordTFVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308CD9F82785D76B00C05D8F /* NewPasswordTFVC.swift */; };
 		308CD9FB2785D99300C05D8F /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308CD9FA2785D99300C05D8F /* ProfileVC.swift */; };
 		309DE18A2767587A00594E1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309DE1892767587A00594E1E /* AppDelegate.swift */; };
 		309DE18C2767587A00594E1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309DE18B2767587A00594E1E /* SceneDelegate.swift */; };
@@ -47,7 +47,7 @@
 		30D482B627962AA7009EA75F /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D482B527962AA7009EA75F /* K.swift */; };
 		30D482BA27963C06009EA75F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D482B927963C06009EA75F /* Item.swift */; };
 		30DAA4C3276F4A3300C349EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30DAA4C2276F4A3300C349EA /* GoogleService-Info.plist */; };
-		30E9E6CE27996D42000B4A08 /* SearchPlsntsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E9E6CD27996D42000B4A08 /* SearchPlsntsVC.swift */; };
+		30E9E6CE27996D42000B4A08 /* SearchPlantsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E9E6CD27996D42000B4A08 /* SearchPlantsVC.swift */; };
 		30EFC4C9276F23C100811073 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EFC4C8276F23C100811073 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
@@ -65,11 +65,11 @@
 		3082A92827972D6600E398A4 /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 		3082A92A27972E8200E398A4 /* ItemsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTVC.swift; sourceTree = "<group>"; };
 		3082A92C2797303D00E398A4 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
-		308A95BE2793ED2B0079D611 /* twoHomeControllerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoHomeControllerVC.swift; sourceTree = "<group>"; };
+		308A95BE2793ED2B0079D611 /* TwoHomeControllerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoHomeControllerVC.swift; sourceTree = "<group>"; };
 		308A95C02793ED4F0079D611 /* ShowCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCollectionVC.swift; sourceTree = "<group>"; };
 		308A95C72793FA5C0079D611 /* TasksPlantVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksPlantVC.swift; sourceTree = "<group>"; };
 		308CD9F62785D2A000C05D8F /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
-		308CD9F82785D76B00C05D8F /* newPasswordTFVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newPasswordTFVC.swift; sourceTree = "<group>"; };
+		308CD9F82785D76B00C05D8F /* NewPasswordTFVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordTFVC.swift; sourceTree = "<group>"; };
 		308CD9FA2785D99300C05D8F /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		309DE1862767587A00594E1E /* PlantCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlantCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		309DE1892767587A00594E1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 		30D482B527962AA7009EA75F /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
 		30D482B927963C06009EA75F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		30DAA4C2276F4A3300C349EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		30E9E6CD27996D42000B4A08 /* SearchPlsntsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPlsntsVC.swift; sourceTree = "<group>"; };
+		30E9E6CD27996D42000B4A08 /* SearchPlantsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPlantsVC.swift; sourceTree = "<group>"; };
 		30EFC4C8276F23C100811073 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,15 +135,25 @@
 		301B6F3627990FA800B70540 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				30E9E6CD27996D42000B4A08 /* SearchPlsntsVC.swift */,
-				308A95BE2793ED2B0079D611 /* twoHomeControllerVC.swift */,
+				30E9E6CD27996D42000B4A08 /* SearchPlantsVC.swift */,
+				308A95BE2793ED2B0079D611 /* TwoHomeControllerVC.swift */,
 				30D03EB92796AB1E006374DA /* TabBarVC.swift */,
+				303734AD279BF31500986A9B /* Common */,
 				30A4E2C2278AB58300E18D5F /* Setting */,
 				306B6B8B278B6DF400A69C42 /* TypePlants */,
 				3082A92727972D3D00E398A4 /* Tasks */,
 				30CE42C2278D77BB009E5388 /* CommonProblemsPlant */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		303734AD279BF31500986A9B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				30D482B527962AA7009EA75F /* K.swift */,
+				3020066A277092D7009FA23C /* Constants.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		305F34E3277468D5007F49AE /* Spourt */ = {
@@ -241,7 +251,7 @@
 			children = (
 				308CD9F62785D2A000C05D8F /* SettingVC.swift */,
 				308CD9FA2785D99300C05D8F /* ProfileVC.swift */,
-				308CD9F82785D76B00C05D8F /* newPasswordTFVC.swift */,
+				308CD9F82785D76B00C05D8F /* NewPasswordTFVC.swift */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -258,8 +268,6 @@
 		30D482B427962A76009EA75F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				30D482B527962AA7009EA75F /* K.swift */,
-				3020066A277092D7009FA23C /* Constants.swift */,
 				30D03EBB2796C224006374DA /* StoryPoardName.swift */,
 				30D482B927963C06009EA75F /* Item.swift */,
 				3082A92827972D6600E398A4 /* ItemStore.swift */,
@@ -357,7 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				306B6B88278B67CD00A69C42 /* ListPlantsVC.swift in Sources */,
-				308CD9F92785D76B00C05D8F /* newPasswordTFVC.swift in Sources */,
+				308CD9F92785D76B00C05D8F /* NewPasswordTFVC.swift in Sources */,
 				309DE18E2767587A00594E1E /* ViewController.swift in Sources */,
 				30CE42C8278D787C009E5388 /* DetailsProblemVC.swift in Sources */,
 				306B6B86278B67BD00A69C42 /* LISTTableViewCell.swift in Sources */,
@@ -378,12 +386,12 @@
 				3075A0552779924400F1B105 /* CMTextFild.swift in Sources */,
 				30D482B327961074009EA75F /* Keyboard.swift in Sources */,
 				309DE18C2767587A00594E1E /* SceneDelegate.swift in Sources */,
-				308A95BF2793ED2B0079D611 /* twoHomeControllerVC.swift in Sources */,
+				308A95BF2793ED2B0079D611 /* TwoHomeControllerVC.swift in Sources */,
 				309DE1A227675A4D00594E1E /* HomeViewController.swift in Sources */,
 				3061BABB2779F519002FF457 /* EX.swift in Sources */,
 				3082A9242797238A00E398A4 /* FSCollectionReference.swift in Sources */,
 				306B6B8A278B6AE300A69C42 /* DeetailVC.swift in Sources */,
-				30E9E6CE27996D42000B4A08 /* SearchPlsntsVC.swift in Sources */,
+				30E9E6CE27996D42000B4A08 /* SearchPlantsVC.swift in Sources */,
 				3020066B277092D7009FA23C /* Constants.swift in Sources */,
 				30CE42C4278D7820009E5388 /* ProblemPlantTVCell.swift in Sources */,
 				3065EAEA278C23FE00AAFBEC /* UIBK.swift in Sources */,

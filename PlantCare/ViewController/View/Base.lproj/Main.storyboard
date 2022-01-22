@@ -381,7 +381,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1qr-xu-DTw">
                                         <rect key="frame" x="0.0" y="0.0" width="155" height="60"/>
-                                        <color key="backgroundColor" red="0.60000002379999995" green="0.74117654560000001" blue="0.6784313917" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" name="lightgreen"/>
                                         <fontDescription key="fontDescription" name="KohinoorGujarati-Regular" family="Kohinoor Gujarati" pointSize="14"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="common Problems" image="list.bullet" catalog="system">
@@ -421,23 +421,23 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0ecf071c000a065e35677d013a3c1feb" translatesAutoresizingMaskIntoConstraints="NO" id="0bH-TT-zE5">
-                                <rect key="frame" x="47" y="533" width="320" height="152"/>
+                                <rect key="frame" x="68" y="533" width="288" height="148"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="152" id="ZVV-we-FTA"/>
+                                    <constraint firstAttribute="height" constant="148" id="ZVV-we-FTA"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LIw-up-zkh"/>
                         <color key="backgroundColor" red="0.92156863209999995" green="0.98823523520000001" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="0bH-TT-zE5" firstAttribute="centerX" secondItem="e8V-oB-ejX" secondAttribute="centerX" id="0LJ-Lx-Cym"/>
-                            <constraint firstItem="0bH-TT-zE5" firstAttribute="centerX" secondItem="Qgv-YH-7bc" secondAttribute="centerX" id="1DA-QM-rZ0"/>
+                            <constraint firstItem="0bH-TT-zE5" firstAttribute="centerX" secondItem="e8V-oB-ejX" secondAttribute="centerX" constant="5" id="0LJ-Lx-Cym"/>
+                            <constraint firstItem="0bH-TT-zE5" firstAttribute="centerX" secondItem="Qgv-YH-7bc" secondAttribute="centerX" constant="5" id="1DA-QM-rZ0"/>
                             <constraint firstItem="LIw-up-zkh" firstAttribute="bottom" secondItem="b1w-oW-Trd" secondAttribute="bottom" constant="43" id="24e-z5-DgP"/>
                             <constraint firstItem="LIw-up-zkh" firstAttribute="trailing" secondItem="Qgv-YH-7bc" secondAttribute="trailing" constant="20" id="9Hf-Dr-shn"/>
                             <constraint firstItem="e8V-oB-ejX" firstAttribute="top" secondItem="0Ic-RK-J09" secondAttribute="topMargin" constant="-35" id="M4V-xV-eQr"/>
-                            <constraint firstItem="0bH-TT-zE5" firstAttribute="centerX" secondItem="b1w-oW-Trd" secondAttribute="centerX" id="Pc8-Tg-PBX"/>
+                            <constraint firstItem="0bH-TT-zE5" firstAttribute="centerX" secondItem="b1w-oW-Trd" secondAttribute="centerX" constant="5" id="Pc8-Tg-PBX"/>
                             <constraint firstItem="0bH-TT-zE5" firstAttribute="top" secondItem="Qgv-YH-7bc" secondAttribute="bottom" constant="8" id="Qqq-1g-S6w"/>
-                            <constraint firstItem="0bH-TT-zE5" firstAttribute="leading" secondItem="LIw-up-zkh" secondAttribute="leading" constant="47" id="SCQ-bl-15U"/>
+                            <constraint firstItem="0bH-TT-zE5" firstAttribute="leading" secondItem="LIw-up-zkh" secondAttribute="leading" constant="68" id="SCQ-bl-15U"/>
                             <constraint firstItem="Qgv-YH-7bc" firstAttribute="centerY" secondItem="0Ic-RK-J09" secondAttribute="centerY" constant="56" id="Tit-pU-ruC"/>
                             <constraint firstItem="LIw-up-zkh" firstAttribute="trailing" secondItem="b1w-oW-Trd" secondAttribute="trailing" constant="47" id="awr-Tq-3l6"/>
                             <constraint firstItem="b1w-oW-Trd" firstAttribute="leading" secondItem="LIw-up-zkh" secondAttribute="leading" constant="47" id="emy-qV-XfE"/>
@@ -568,7 +568,7 @@
         <!--Edite Password-->
         <scene sceneID="1zB-yc-nDE">
             <objects>
-                <viewController storyboardIdentifier="EditePassword" id="VpO-6C-29E" userLabel="Edite Password" customClass="newPasswordTFVC" customModule="PlantCare" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EditePassword" id="VpO-6C-29E" userLabel="Edite Password" customClass="NewPasswordTFVC" customModule="PlantCare" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YKu-9L-5cM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -745,7 +745,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Plantcell" rowHeight="111" translatesAutoresizingMaskIntoConstraints="NO" id="cE8-0i-Yxr" customClass="LISTTableViewCell" customModule="PlantCare" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Plantcell" rowHeight="111" translatesAutoresizingMaskIntoConstraints="NO" id="cE8-0i-Yxr" customClass="LISTTableViewCell" customModule="PlantCare" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="111"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cE8-0i-Yxr" id="ehd-0v-eSW">
@@ -1178,7 +1178,7 @@
         <!--Two Home ControllerVC-->
         <scene sceneID="2j3-tD-QR8">
             <objects>
-                <viewController id="PZw-pZ-LNk" customClass="twoHomeControllerVC" customModule="PlantCare" sceneMemberID="viewController">
+                <viewController id="PZw-pZ-LNk" customClass="TwoHomeControllerVC" customModule="PlantCare" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qAh-oa-DgD" userLabel="Show View">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="422"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1394,7 +1394,8 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iJn-pA-aGZ">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" red="0.2588235438" green="0.42745098469999998" blue="0.38431376220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.60000002379999995" green="0.74117654560000001" blue="0.6784313917" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="0.60000002379999995" green="0.74117654560000001" blue="0.6784313917" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="barTintColor" name="lightgreen"/>
                         <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -1409,10 +1410,10 @@
             </objects>
             <point key="canvasLocation" x="2528" y="-328"/>
         </scene>
-        <!--Search PlsntsVC-->
+        <!--Search PlantsVC-->
         <scene sceneID="7Cd-iu-0GX">
             <objects>
-                <viewController id="rA1-eX-5UB" customClass="SearchPlsntsVC" customModule="PlantCare" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="rA1-eX-5UB" customClass="SearchPlantsVC" customModule="PlantCare" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vTB-Tz-4GS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1458,7 +1459,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" restorationIdentifier="Adaptive Stack View" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="LBp-Ye-Ghf" userLabel="Main_Stack_View">
-                                <rect key="frame" x="20" y="52" width="374" height="709"/>
+                                <rect key="frame" x="20" y="96" width="374" height="616"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="EcI-sZ-S7N" userLabel="Form_Stack_View">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="220"/>
@@ -1541,10 +1542,10 @@
                                         <variation key="heightClass=compact" axis="vertical"/>
                                     </stackView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="248" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="Qim-jS-mym">
-                                        <rect key="frame" x="0.0" y="228" width="374" height="442"/>
+                                        <rect key="frame" x="0.0" y="228" width="374" height="349"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wHy-bg-Jvn">
-                                        <rect key="frame" x="0.0" y="678" width="374" height="31"/>
+                                        <rect key="frame" x="0.0" y="585" width="374" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="AddTasks"/>
                                         <connections>
@@ -1556,7 +1557,7 @@
                                 <variation key="heightClass=compact-widthClass=regular" axis="horizontal"/>
                             </stackView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pe2-kv-puj">
-                                <rect key="frame" x="0.0" y="769" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="720" width="414" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="4Y3-pj-hjd"/>
                                 </constraints>
@@ -1637,7 +1638,7 @@
     </designables>
     <inferredMetricsTieBreakers>
         <segue reference="aRi-Uj-qdA"/>
-        <segue reference="Dpj-ZN-LBM"/>
+        <segue reference="bAe-5e-2NY"/>
         <segue reference="uZU-95-5Rn"/>
         <segue reference="z1R-G1-d5O"/>
     </inferredMetricsTieBreakers>
