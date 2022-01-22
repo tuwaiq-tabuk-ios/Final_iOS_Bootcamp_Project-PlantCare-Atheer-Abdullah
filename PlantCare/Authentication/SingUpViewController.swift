@@ -18,8 +18,8 @@ class SingUpViewController: UIViewController{
   @IBOutlet weak var firstNameTextField: UITextField!
   @IBOutlet weak var lastNameTextField: UITextField!
   @IBOutlet weak var emailTextField: UITextField!
-  @IBOutlet weak var passwordTextField: MainTF!
-  @IBOutlet weak var confirmPassword: MainTF!
+  @IBOutlet weak var passwordTextField: CMTextFild!
+  @IBOutlet weak var confirmPassword: CMTextFild!
   @IBOutlet weak var signUpButton: UIButton!
   @IBOutlet weak var errorLabel: UILabel!
   
@@ -28,16 +28,12 @@ class SingUpViewController: UIViewController{
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    errorLabel.isHidden = true
-    Keyboard()
+ 
     setUpElements()
-    dismissKeyboard()
-    
-  
-    
-    navigationItem.backButtonTitle = ""
     overrideUserInterfaceStyle = .light
-    navigationItem.setHidesBackButton(true, animated: true)
+    errorLabel.isHidden = true
+    signUpButton.cmShadow()
+    
   }
   
   // MARK: - Register
@@ -51,34 +47,31 @@ class SingUpViewController: UIViewController{
     Utilities.styleFilledButton(signUpButton)
     Utilities.styleTextField(confirmPassword)
   }
-  override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-    view.endEditing(true)
-  }
+ 
 
 
-
-  
-  func validateFields() -> String? {
-    
-    // Check that all fields are filled in
-    if firstNameTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
-        lastNameTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
-        emailTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
-        passwordTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" {
-      
-      return "Please fill in all fields."
-    }
-    
-    // Check if the password is secure
-    let cleanedPassword = passwordTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
-    
-    if Utilities.isPasswordValid(cleanedPassword) == false {
-      // Password isn't secure enough
-      return "Please make sure your password is at least 8 characters, contains a special character and a number."
-    }
-    
-    return nil
-  }
+//
+//  func validateFields() -> String? {
+//
+//    // Check that all fields are filled in
+//    if firstNameTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+//        lastNameTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+//        emailTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+//        passwordTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" {
+//
+//      return "Please fill in all fields."
+//    }
+////
+//    // Check if the password is secure
+//    let cleanedPassword = passwordTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+//
+//    if Utilities.isPasswordValid(cleanedPassword) == false {
+//      // Password isn't secure enough
+//      return "Please make sure your password is at least 8 characters, contains a special character and a number."
+//    }
+//
+//    return nil
+//  }
   
   
   
@@ -87,6 +80,8 @@ class SingUpViewController: UIViewController{
   @IBAction func singUpTapped(_ sender: Any) {
     singUp()
   }
+  
+  // MARK: - Methods
   
   private func singUp()  {
     
@@ -126,7 +121,7 @@ class SingUpViewController: UIViewController{
         let storybord = UIStoryboard(name: "Main", bundle: nil)
           let vc = storybord
             
-            .instantiateViewController(withIdentifier: K.Storyboard.homeViewController)
+            .instantiateViewController(withIdentifier: K.Storyboard.homeViewController) 
             
            // vc.modalPresentationStyle = .overFullScreen
         self.present(vc, animated: true) } else {

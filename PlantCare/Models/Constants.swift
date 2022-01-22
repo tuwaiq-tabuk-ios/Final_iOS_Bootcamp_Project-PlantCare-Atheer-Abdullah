@@ -1,9 +1,8 @@
 //
 //  Constants.swift
-//  CustomLoginDemo
+//  PlantCare
 //
-//  Created by Christopher Ching on 2019-07-23.
-//  Copyright © 2019 Christopher Ching. All rights reserved.
+//  Created by Atheer abdullah on 15/06/1443 AH.
 //
 
 import Foundation
