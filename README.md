@@ -16,7 +16,7 @@ People interested in plants and owning them.
 
 ## User stories
 
-●  Remind the user of times to take care of the plants through tasks.
+●  Watering tasks at the right time
 
 ● Displays information، pictures about plants and their care and will be able to search by the plant's name.
 
