@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "nutrients.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "nutrients.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },

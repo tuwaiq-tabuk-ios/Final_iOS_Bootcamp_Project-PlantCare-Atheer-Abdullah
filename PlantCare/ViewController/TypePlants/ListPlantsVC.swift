@@ -284,7 +284,7 @@ class ListPlantsVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     
     let vc = storyboard?.instantiateViewController(withIdentifier: "DetailVC") as? DeetailVC
     if let viewController = vc {
-      viewController.nameP = plants[indexPath.row]
+      viewController.namePlant = plants[indexPath.row]
       
       viewController.image = plants[indexPath.row].imagePlant!
       // viewController.image = plant[indexPath.row].imagePlant!

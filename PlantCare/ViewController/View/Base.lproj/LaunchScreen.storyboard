@@ -49,7 +49,7 @@
             <color red="0.25900000333786011" green="0.42699998617172241" blue="0.38400000333786011" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="textgreen">
-            <color red="0.82400000095367432" green="0.85900002717971802" blue="0.83899998664855957" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.80392158030000005" green="0.85882353779999998" blue="0.8392156959" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
     </resources>
 </document>

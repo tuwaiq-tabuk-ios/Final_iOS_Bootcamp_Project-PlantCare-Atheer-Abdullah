@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "Kentia.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "Kentia.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },

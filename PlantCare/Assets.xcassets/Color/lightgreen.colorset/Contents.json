@@ -23,12 +23,42 @@
         "color-space" : "display-p3",
         "components" : {
           "alpha" : "1.000",
-          "blue" : "0.386",
-          "green" : "0.354",
-          "red" : "0.189"
+          "blue" : "0.142",
+          "green" : "0.142",
+          "red" : "0.055"
         }
       },
       "idiom" : "universal"
+    },
+    {
+      "color" : {
+        "color-space" : "display-p3",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.675",
+          "green" : "0.741",
+          "red" : "0.604"
+        }
+      },
+      "idiom" : "iphone"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "color" : {
+        "color-space" : "display-p3",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.142",
+          "green" : "0.142",
+          "red" : "0.055"
+        }
+      },
+      "idiom" : "iphone"
     }
   ],
   "info" : {

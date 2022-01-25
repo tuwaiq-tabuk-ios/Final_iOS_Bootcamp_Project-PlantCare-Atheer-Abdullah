@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "cilantro .jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "cilantro .jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
