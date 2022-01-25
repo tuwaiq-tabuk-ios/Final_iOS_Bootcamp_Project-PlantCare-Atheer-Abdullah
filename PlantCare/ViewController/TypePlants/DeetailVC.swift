@@ -20,7 +20,7 @@ class DeetailVC: UIViewController {
   @IBOutlet weak var careLa: UILabel!
   @IBOutlet weak var carePh: UIImageView!
   
-
+  
   var nameP : Plants!
   var image = UIImage()
   var index: Int!
@@ -29,11 +29,11 @@ class DeetailVC: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-   
+    
     nameLabel.text = nameP.namePlant
     
     imagePlant.image = nameP.imagePlant
-  
+    
     sunLab.text = nameP.sun
     sunImage.image = UIImage.init(named: "sun")
     
@@ -42,15 +42,15 @@ class DeetailVC: UIViewController {
     
     waterPh.image = UIImage(named: "water")
     waterLAb.text = nameP.water
- 
-
+    
+    
     
   }
   
-
-  }
   
+}
 
-  
 
-  
+
+
+

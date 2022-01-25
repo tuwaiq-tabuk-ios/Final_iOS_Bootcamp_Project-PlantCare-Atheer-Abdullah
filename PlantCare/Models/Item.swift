@@ -40,7 +40,7 @@ self.dateWater = Date()
   }
   convenience init(random: Bool = false) {
     if random {
-      let adjectives = ["", "", ""]
+      let adjectives = ["Name Your Plant", "Name Your Plant", "Name Your Plant"]
       let nouns = ["", "", ""]
       let randomAdjective = adjectives.randomElement()!
       let randomNoun = nouns.randomElement()!
