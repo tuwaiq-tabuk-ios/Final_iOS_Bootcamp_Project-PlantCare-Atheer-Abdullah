@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "CedarBonsai.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "CedarBonsai.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },

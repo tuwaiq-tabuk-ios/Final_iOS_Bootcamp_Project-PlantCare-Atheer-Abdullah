@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "Elkhorn Fern.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "Elkhorn Fern.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },

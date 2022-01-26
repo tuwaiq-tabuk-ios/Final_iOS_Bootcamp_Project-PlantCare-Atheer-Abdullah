@@ -12,7 +12,7 @@ class LoginViewController: UIViewController {
   
   //MARK: - IBOutlet
   
-  @IBOutlet weak var emailTF: UITextField!
+  @IBOutlet weak var emailTF: CMTextFild!
   @IBOutlet weak var passwerdTF: CMTextFild!
   @IBOutlet weak var loginButton: UIButton!
   @IBOutlet weak var errorLabel: UILabel!

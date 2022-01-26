@@ -97,7 +97,6 @@ class SingUpViewController: UIViewController{
       errorLabel.text = "Enter the password"
       return
     }
-    
     guard let firstName = firstNameTextField.text,
           firstName.isEmpty == false else {
             errorLabel.isHidden = false
@@ -110,6 +109,7 @@ class SingUpViewController: UIViewController{
             errorLabel.text = "Fill in the last name"
             return
     }
+    
     FSUserManager
       .shared
       .signUpUserWith(email: email,

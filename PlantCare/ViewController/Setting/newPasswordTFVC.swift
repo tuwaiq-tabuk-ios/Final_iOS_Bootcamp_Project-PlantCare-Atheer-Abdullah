@@ -8,7 +8,7 @@
 import UIKit
 import Firebase
 import FirebaseFirestore
-import CoreMedia
+
 
 class NewPasswordTFVC: UIViewController {
   

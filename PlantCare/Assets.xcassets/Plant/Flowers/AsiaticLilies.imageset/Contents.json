@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "AsiaticLilies.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "AsiaticLilies.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
